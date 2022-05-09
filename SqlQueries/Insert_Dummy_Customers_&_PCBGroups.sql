@@ -1,0 +1,11 @@
+--Create PCB Groups
+INSERT INTO PCBGroup VALUES ('PCBGSN1', 5);
+INSERT INTO PCBGroup VALUES ('PCBGSN2', 5);
+INSERT INTO PCBGroup VALUES ('PCBGSN3', 5);
+INSERT INTO PCBGroup VALUES ('PCBGSN4', 5);
+INSERT INTO PCBGroup VALUES ('PCBGSN5', 5);
+
+--Create Customers
+INSERT INTO Customer VALUES ('Big Corp');
+INSERT INTO Customer VALUES ('Little Corp');
+INSERT INTO Customer VALUES ('Cool Guy Hardware');

@@ -1,0 +1,9 @@
+INSERT INTO ProductionStatus(ProductionStatus) VALUES ('Panel');
+INSERT INTO ProductionStatus(ProductionStatus) VALUES ('PCB');
+INSERT INTO ProductionStatus(ProductionStatus) VALUES ('PCBA');
+INSERT INTO ProductionStatus(ProductionStatus) VALUES ('Tested');
+INSERT INTO ProductionStatus(ProductionStatus) VALUES ('Rework');
+INSERT INTO ProductionStatus(ProductionStatus) VALUES ('Assembled');
+INSERT INTO ProductionStatus(ProductionStatus) VALUES ('RTS');
+INSERT INTO ProductionStatus(ProductionStatus) VALUES ('Shipped');
+INSERT INTO ProductionStatus(ProductionStatus) VALUES ('RMA');

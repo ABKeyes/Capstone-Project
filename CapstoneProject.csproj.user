@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ActiveDebugProfile>Profile 2</ActiveDebugProfile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="AddPart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ModifyStorage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PopUpWindows\moveStorageDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PartHistory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="PopUpWindows\WaitWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PrintSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ProductDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ProductDetailWindows\AddImageWindow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ProductDetailWindows\LogWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ProductDetailWindows\DetailsWindow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ProductDetailWindows\ManageStorageWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ProductDetailWindows\UpdateProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ProductTypeConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ProductType\AddEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PopUpWindows\Prompt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PopUpWindows\storageDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="PartHistory.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ProductDetails.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ProductDetailWindows\LogWindow.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ProductTypeConfig.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

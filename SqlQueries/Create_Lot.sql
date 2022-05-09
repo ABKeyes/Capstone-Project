@@ -1,0 +1,4 @@
+CREATE TABLE Lot (
+    LotNum VARCHAR(20),
+    CONSTRAINT pk_LotKey PRIMARY KEY (LotNum)
+);
