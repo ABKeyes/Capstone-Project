@@ -13,7 +13,7 @@ Upon login the user will be redirected to a webpage that will require the user t
 ## Menu
 The main page of the application. Along the top of the menu is an array of buttons that allow the user to transition to each of the applications applets.
 By default the menu shows a list of every item inventory. The application has three different user roles, customer service, engineering, and admin and will limit the view of the applets to fit that role.
-[Insert Menu Example Here]
+![Menu_Example](https://user-images.githubusercontent.com/104809669/167961444-cb56b9ac-c287-4024-9e8b-913cc50ea7f7.png)
 
 ## Customer Service
 This applet allows the user to add notes about a specifc product for future reference.
@@ -23,27 +23,28 @@ Allows the user to search for tracks products. The applet allows the user to sea
 Additionally, this page allows the user to specify which columns should be displayed.
 The user can select products and export their serial numbers to a csv file. The client uses these csv file to print barcode stickers for products.
 From this page a part can be selected to display/update details about that specific part.
-[Insert Search example here]
+![Search_Example](https://user-images.githubusercontent.com/104809669/167961497-a71f1318-f0dd-4d59-8e91-4fa41ebaa3d8.png)
 
 ## Add New Part
 Applet to add new products to the database. Automatically generates product serial number and lot number. Allows the user to bulk add a user defined number of products.
-[Insert New Part Example here]
+![New_Part_Example](https://user-images.githubusercontent.com/104809669/167961527-12c2aeb7-242e-4c30-83b1-8ad0fb02f517.png)
 
 ## Event Log
 Applet to add preset product events for a product or group of products. These events are preset based on produt type.
-[Insert Event Log Example]
+![Event_Log_Example](https://user-images.githubusercontent.com/104809669/167961540-79eab373-e801-4e1c-87b6-2a165c14a8ed.png)
 
 ## Modify Event List
 Applet to modify event list of a given product type.
-[Modify Event List Example]
+![Modify_Event_List](https://user-images.githubusercontent.com/104809669/167961562-e9ad5085-131d-405f-8435-111248277d46.png)
 
 ## Manage Storage
 Client had four levels of storage, Storerooms, Racks, shelves, and bins. THis applet allows the user to Add, remove, or move any of these storage items.
-[Manage Storage Example]
+![Manage_Storage_Example](https://user-images.githubusercontent.com/104809669/167961578-d6fd0282-d6e4-48ae-a9fa-d3a9f2275ad7.png)
 
 ## Modify Users
 Applet used by database admin to add and set the role of a database user.
-[Modify Users Example]
+![Modify_User_Example](https://user-images.githubusercontent.com/104809669/167961595-17ec4ce5-5923-40a7-b972-65c0e81f39d2.png)
 
 ## SQL Database
-[SQL Database Example]
+Schema used for sql database.
+![Relational_Schema_Example](https://user-images.githubusercontent.com/104809669/167961765-c5835863-bc50-4736-a4af-5fedf0d256a0.png)
