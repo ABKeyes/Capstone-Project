@@ -9,4 +9,4 @@ Upon login the user will be redirected to a webpage that will require the user t
 ## Menu
 The main page of the application. Along the top of the menu is an array of buttons that allow the user to transition to each of the applications applets.
 By default the menu shows a list of every item inventory.
-![plot](./Example_Pictures/Menu_example.png)
+![Menu_Example](https://user-images.githubusercontent.com/104809669/167957333-a1501bdc-9a8a-492a-9922-4b378dbee62e.png)
