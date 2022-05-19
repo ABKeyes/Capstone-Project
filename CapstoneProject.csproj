@@ -25,10 +25,10 @@
       <PackageReference Include="System.ValueTuple" Version="4.5.0" />
     </ItemGroup>
     <ItemGroup>
-      <Compile Update="ProductDetailWindows\AddNoteWindow.cs">
+      <Compile Update="src\ProductDetailWindows\AddNoteWindow.cs">
         <SubType>Form</SubType>
       </Compile>
-      <Compile Update="PopUpWindows\SmallPrompt.cs">
+      <Compile Update="src\PopUpWindows\SmallPrompt.cs">
         <SubType>Form</SubType>
       </Compile>
       <Compile Update="Properties\Resources.Designer.cs">
@@ -43,7 +43,7 @@
       </Compile>
     </ItemGroup>
     <ItemGroup>
-      <EmbeddedResource Update="ProductDetailWindows\AddNoteWindow.resx">
+      <EmbeddedResource Update="src\ProductDetailWindows\AddNoteWindow.resx">
         <SubType>Designer</SubType>
       </EmbeddedResource>
       <EmbeddedResource Update="Properties\Resources.resx">
